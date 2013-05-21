@@ -198,9 +198,9 @@ game.swagBullet = me.ObjectEntity.extend({
     this.direction = settings.dir;
 
     if (this.direction == "left"){
-      this.vel.x = -6;
+      this.vel.x = -7;
     }else{
-      this.vel.x = 6;
+      this.vel.x = 7;
     }
   },
 
